@@ -2622,7 +2622,8 @@
         "all",
         ["==", "admin_level", 8],
         ["!=", "maritime", 1],
-        ["!=", "neutral", 0]
+        ["!=", "neutral", 0],
+        ["!=", "disputed", 1]
       ],
       "layout": {"line-join": "round"},
       "paint": {
@@ -2641,7 +2642,8 @@
         [">=", "admin_level", 6],
         ["<=", "admin_level", 7],
         ["!=", "maritime", 1],
-        ["!=", "neutral", 0]
+        ["!=", "neutral", 0],
+        ["!=", "disputed", 1]
       ],
       "layout": {"line-join": "round"},
       "paint": {
@@ -2661,7 +2663,8 @@
         [">=", "admin_level", 3],
         ["<=", "admin_level", 5],
         ["!=", "maritime", 1],
-        ["!=", "neutral", 0]
+        ["!=", "neutral", 0],
+        ["!=", "disputed", 1]
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
@@ -2679,7 +2682,8 @@
         "all",
         ["==", "admin_level", 2],
         ["!=", "maritime", 1],
-        ["!=", "neutral", 0]
+        ["!=", "neutral", 0],
+        ["!=", "disputed", 1]
       ],
       "layout": {
         "line-cap": "round",
